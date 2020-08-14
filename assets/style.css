@@ -16,5 +16,126 @@ body{
 }
 
 .wrapper{
-  
+  width: 96%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+header {
+  background-color: #e5e5e5;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-indent: -10000px;
+  margin: 0;
+  background-image: url("images/marble-logo.png");
+  background-repeat: no-repeat;
+  width: 130px;
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header:after  {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+ header nav h2 {
+  line-height: 0;
+  margin: 0;
+  text-indent: -10000px;
+}
+
+header nav li  {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+header nav ul li a  {
+  text-decoration: none;
+  color: #4e4e4e;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header nav ul li a.current  {
+  color: #1abb9c;
+}
+
+#main-banner  {
+  max-height: 60vh;
+  overflow: hidden;
+}
+
+#main-banner img  {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#selling-points  {
+  width: 100%;
+  margin-top: 60px;
+  padding: 0;
+}
+
+#selling-points ul  {
+  display: flex;
+}
+
+#selling-points ul li {
+  padding: 30px;
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  line-height: 1.4em;
+}
+
+#works  {
+  width: 100%;
+  margin-top: 60px;
+  padding: 0;
+}
+
+#works ul  {
+  display: flex;
+}
+
+#works ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  line-height: 1.6em;
+}
+
+#quotes {
+  text-align: center;
+  margin: 2rem;
+  padding: 1.5rem; 
+}
+
+footer .wrapper {
+  display: flex;
+}
+
+footer .wrapper ul {
+  padding: 15px;
+  list-style-type: none;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+#copyright {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
 }
